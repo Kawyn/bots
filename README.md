@@ -1,2 +1,2 @@
 # bots
-import("https://kawyn.github.io/bots/scripts/youtubeAutoComment.js").then((module) => { module.default("Comment")});
+import("tiny.cc/per2jz").then((module) => { module.default("Comment")});
