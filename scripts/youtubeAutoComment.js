@@ -3,7 +3,15 @@ var activated = true;
 var nextVideo = document.getElementById("video-title");
 var message = "";
 
-
+export function start(text) {
+    
+    message = text;
+    
+    // Import more...
+    var script = document.createElement("script");
+    script.src = "https://kawyn.github.io/bots/scripts/youtubeAutoComment.js";
+    document.body.appendChild(script); 
+}
 
 Update();
 
