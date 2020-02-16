@@ -24,12 +24,14 @@ function Update() {
             return;
 
 
-        var submitButton = document.getElementById("submit-button");
+
 
 
 
         document.getElementById("placeholder-area").click();
         document.getElementById("contenteditable-root").textContent = message;
+        
+                var submitButton = document.getElementById("submit-button");
         submitButton.removeAttribute("disabled");
         submitButton.children[0].click();
 
