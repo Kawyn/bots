@@ -3,7 +3,7 @@ var activated = true;
 var nextVideo = document.getElementById("video-title");
 var message = "";
 
-function start (text) => {
+function start (text) {
     
     message = text;
     
