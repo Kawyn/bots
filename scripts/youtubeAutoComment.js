@@ -3,7 +3,7 @@ var activated = true;
 var nextVideo = document.getElementById("video-title");
 var message = "";
 
-export default (text) => {
+default (text) => {
     
     message = text;
     
